@@ -1,0 +1,14 @@
+#background_and_text {
+    background-image: url("src/Background.png");
+    background-color: #212121;
+    opacity: 0.5;
+
+}
+body > *{
+    margin-left: 32px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+
+}
