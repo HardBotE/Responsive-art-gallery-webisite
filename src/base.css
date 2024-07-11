@@ -3,9 +3,7 @@
     height: 1024px;
     object-fit: cover;
     background-repeat: no-repeat;
-
 }
-
 
 body {
     font-size: 16px;
@@ -69,8 +67,52 @@ h2 {
 
     object-fit: cover;
     max-width: calc(100% - 32px);
+    border-radius: 4px;
 
 }
-.images_cards{
-  margin-left:2rem;
+
+.images_cards {
+    margin-left: 2rem;
+}
+
+.date_of_picture {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #B7B7B7;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.picture_description {
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000000;
+    margin-right: 32px;
+    margin-bottom: 1.125rem;
+}
+
+.read_more_button {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #D9852C;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.button_aligner{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box{
+    border-radius: 4px;
+    border: 1px solid #DDDDDD;
+    margin-top: -20px;
+    margin-right: 2rem;
+}
+.image{
+    margin-bottom: 2rem;
 }
