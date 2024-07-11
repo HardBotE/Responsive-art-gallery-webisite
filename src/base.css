@@ -1,8 +1,14 @@
-#background_and_text {
-    background-image: url("src/Background.png");
+#background {
+    background-image: url("Background.png");
     background-color: #212121;
     opacity: 0.5;
+    height: 1024px;
+    object-fit: cover;
+    background-repeat: no-repeat;
 
+}
+body{
+    font-size: 16px;
 }
 body > *{
     margin-left: 32px;
@@ -10,5 +16,5 @@ body > *{
 #header{
     display: flex;
     justify-content: space-between;
-
+    margin-bottom: 13.5rem;
 }
