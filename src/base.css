@@ -1,20 +1,54 @@
 #background {
-    background-image: url("Background.png");
-    background-color: #212121;
-    opacity: 0.5;
+    background-image: linear-gradient(rgba(21, 21, 21, 0.5), rgba(21, 21, 21, 0.5)), url("phone_background.png");
     height: 1024px;
     object-fit: cover;
     background-repeat: no-repeat;
 
 }
-body{
+
+
+body {
     font-size: 16px;
 }
-body > *{
+
+#background>* {
     margin-left: 32px;
 }
-#header{
+
+#header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 13.5rem;
 }
+
+h1 {
+    font-family: "Libre Caslon Display", sans-serif;
+    font-size: 3.125rem;
+    font-weight: 400;
+    line-height: 4rem;
+    color: #fff;
+
+}
+
+#background_text_box {
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    margin-top:2rem;
+    margin-bottom:2rem;
+
+}
+
+#learn_more_button {
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 10px;
+    opacity: 1;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    padding:10px 28px;
+}
+
